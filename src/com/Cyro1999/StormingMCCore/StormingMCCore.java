@@ -18,11 +18,11 @@ public class StormingMCCore extends JavaPlugin {
    
     public static final String SMC_COMMAND_PATH = "com.Cyro1999.StormingMCCore.Commands";
     public static final String SMC_COMMAND_PREFIX = "Command_";
-
    // 
    public static FileConfiguration config;  
    public static StormingMCCore plugin;
    public static SMC_Config smcConfig;
+   public SMC_Util util;
   
    
     public void onLoad()

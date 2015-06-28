@@ -16,27 +16,27 @@ public class SMC_PlayerListener implements Listener {
     
     public void onPlayerJoin(PlayerJoinEvent event)
     {
-       if (StormingMCCore.plugin.getConfig().getStringList("staff.owner").contains(event.getPlayer().getName()))
+       if (StormingMCCore.plugin.config.getStringList("staff.owner").contains(event.getPlayer().getName()))
         {
            event.getPlayer().chat("/ne prefix " + event.getPlayer().getName() + "'&4&lOWNER &r' ");
         }
         
-       else if (StormingMCCore.plugin.getConfig().getStringList("staff.overseer").contains(event.getPlayer().getName()))
+       else if (StormingMCCore.plugin.config.getStringList("staff.overseer").contains(event.getPlayer().getName()))
         {
            event.getPlayer().chat("/ne prefix " + event.getPlayer().getName() + "'&b&lOVERSEER &r' ");
         }
                
-       else if (StormingMCCore.plugin.getConfig().getStringList("staff.admin").contains(event.getPlayer().getName()))
+       else if (StormingMCCore.plugin.config.getStringList("staff.admin").contains(event.getPlayer().getName()))
         {
            event.getPlayer().chat("/ne prefix " + event.getPlayer().getName() + "'&c&lADMIN &r' ");
         }
                        
-       else if (StormingMCCore.plugin.getConfig().getStringList("staff.helper").contains(event.getPlayer().getName()))
+       else if (StormingMCCore.plugin.config.getStringList("staff.helper").contains(event.getPlayer().getName()))
         {
            event.getPlayer().chat("/ne prefix " + event.getPlayer().getName() + "'&3&lHELPER &r' ");
         }
                                 
-       else if (StormingMCCore.plugin.getConfig().getStringList("staff.moderator").contains(event.getPlayer().getName()))
+       else if (StormingMCCore.plugin.config.getStringList("staff.moderator").contains(event.getPlayer().getName()))
         {
            event.getPlayer().chat("/ne prefix " + event.getPlayer().getName() + "'&5&lMOD &r' ");
         }
