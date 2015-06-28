@@ -1,0 +1,9 @@
+name: StormingMCCore
+main: com.Cyro1999.StormingMCCore.StormingMCCore
+version: 4.1
+description: Plugin for the Total Freedom server.
+softdepend: [Spigot]
+authors: [Cyro1999]
+
+# plugin.yml is no longer used to define commands.
+

@@ -1,0 +1,18 @@
+## StormingMCCore plugin config ##
+## Created by Cyro1999 ##
+## Only to be edited by Cyro1999 or the development team ##
+
+staff:
+    owner:
+        - Apollo_Justice_
+        - cyro1999
+    overseer:
+        - BlackEye207
+    admin: 
+        - G3neral
+    moderator:
+        - PieGuy7896
+    helper:
+        - CyroDaMeep
+        
+applications_open: false
